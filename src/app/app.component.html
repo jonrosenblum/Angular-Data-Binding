@@ -1,0 +1,13 @@
+<h1>Welcome to {{ name }}</h1>
+<h2>Welcome to {{ topic }} Tutorial</h2>
+<img [src]="image" alt="" style="height: 100px; width: 250px" class="center" />
+
+<br />
+
+<div style="text-align: center">
+  <button style="align-items: center" (click)="onClick()">
+    Subscribe to Simplilearn</button
+  ><br /><br />
+  <input [(ngModel)]="value" type="text" /> <br />
+  {{ value }}
+</div>
